@@ -10,9 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  encrypt: ^4.0.1
   pointycastle: ^1.0.2
   fast_gbk: ^0.1.2+1
+  encrypt:
+    git:
+      url: https://github.com/conghaonet/encrypt.git
 
 dev_dependencies:
   flutter_test:

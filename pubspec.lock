@@ -74,9 +74,11 @@ packages:
   encrypt:
     dependency: "direct main"
     description:
-      name: encrypt
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: d08e97d7288430f35e48601d150d9da50502b406
+      url: "https://github.com/conghaonet/encrypt.git"
+    source: git
     version: "4.0.1"
   fast_gbk:
     dependency: "direct main"

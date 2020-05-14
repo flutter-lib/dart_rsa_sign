@@ -12,7 +12,7 @@ $privateKey
 $keySuffix''';
     final keyParser = RSAKeyParser();
     final rsaPrivateKey = keyParser.parse(key) as RSAPrivateKey;
-    final signer = Signer(RSASigner(RSASignDigest.SHA256, publicKey: null, privateKey: rsaPrivateKey));
+    final signer = Signer(RSASigner(RSASignDigest.SHA1, publicKey: null, privateKey: rsaPrivateKey));
     if(charset == SignCharset.GBK) {
       return signer.signBytes(gbk.encode(plainText)).base64;
     } else {
