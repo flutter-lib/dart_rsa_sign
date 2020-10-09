@@ -15,6 +15,7 @@ dependencies:
   encrypt:
     git:
       url: https://github.com/flutter-lib/encrypt.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
